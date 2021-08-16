@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/prueba-tecnica-milenium-group/static/css/main.ebf25d06.chunk.css",
+    "main.css": "/prueba-tecnica-milenium-group/static/css/main.a33de4b0.chunk.css",
     "main.js": "/prueba-tecnica-milenium-group/static/js/main.38aa21fd.chunk.js",
     "main.js.map": "/prueba-tecnica-milenium-group/static/js/main.38aa21fd.chunk.js.map",
     "runtime-main.js": "/prueba-tecnica-milenium-group/static/js/runtime-main.82ddb437.js",
@@ -8,7 +8,7 @@
     "static/js/2.ed20d076.chunk.js": "/prueba-tecnica-milenium-group/static/js/2.ed20d076.chunk.js",
     "static/js/2.ed20d076.chunk.js.map": "/prueba-tecnica-milenium-group/static/js/2.ed20d076.chunk.js.map",
     "index.html": "/prueba-tecnica-milenium-group/index.html",
-    "static/css/main.ebf25d06.chunk.css.map": "/prueba-tecnica-milenium-group/static/css/main.ebf25d06.chunk.css.map",
+    "static/css/main.a33de4b0.chunk.css.map": "/prueba-tecnica-milenium-group/static/css/main.a33de4b0.chunk.css.map",
     "static/js/2.ed20d076.chunk.js.LICENSE.txt": "/prueba-tecnica-milenium-group/static/js/2.ed20d076.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/prueba-tecnica-milenium-group/static/media/team-bg.d8b37706.png",
     "static/media/about-image-1.d26f0dbc.png": "/prueba-tecnica-milenium-group/static/media/about-image-1.d26f0dbc.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.82ddb437.js",
     "static/js/2.ed20d076.chunk.js",
-    "static/css/main.ebf25d06.chunk.css",
+    "static/css/main.a33de4b0.chunk.css",
     "static/js/main.38aa21fd.chunk.js"
   ]
 }
