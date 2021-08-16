@@ -1,0 +1,139 @@
+.blog__section {
+    background: url('../../../assets/images/blog-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9rem 1rem;
+    text-align: left;
+}
+
+.blog__container {
+    margin: auto;
+    max-width: 900px;
+    position: relative;
+
+    button {
+        background-color: transparent;
+        border: none;
+        border-bottom: 2px solid $primary;
+        bottom: 0;
+        display: inline;
+        float: right;
+        font-weight: 700;
+        margin: auto;
+        padding: 0.2rem 0;
+        position: absolute;
+        right: 0;
+    
+        transition: 200ms ease all;
+    
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}
+
+.blog__title-container {
+    margin-bottom: 5rem;
+    position: relative;   
+}
+
+.blog__subtitle {
+    color: $primary;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.blog__title {
+    display: inline;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    max-width: 850px;
+    padding: 0;
+}
+
+.blog__post-outer-container {
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.blog__post-container {
+    background-color: transparent;
+    border: 2px solid lighten($color: $light-grey, $amount: 20);
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 2rem;
+
+    transition: 300ms ease background-color;
+
+    &:hover {
+        border: 2px solid transparent;
+        background-color: #fff;
+    }
+
+    h3 {
+        font-size: 1rem;
+        font-weight: 700;
+    }
+}
+
+.blog__post-category {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.blog__post-content {
+    color: $dark-grey;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-top: 1.2rem;
+}
+
+.blog__post-author-container {
+    align-items: center;
+    display: flex;
+
+    p {
+        font-size: 0.9rem;
+        font-weight: 700;
+        margin: 0 15px 0 10px;
+    }
+
+    span {
+        color: $light-grey;
+    }
+
+    i {
+        margin-right: 6px;
+    }
+}
+
+.blog__post-category-1 {
+    color: $secondary-1;
+}
+
+.blog__post-category-2 {
+    color: $secondary-2;
+}
+
+.blog__post-category-3 {
+    color: $secondary-3;
+}
+
+@media (max-width: 767px) {
+    .blog__title-container {
+        text-align: center;  
+
+        button {
+            bottom: -35px;
+        }
+    }
+}

@@ -1,0 +1,150 @@
+.contact__section {
+    background-image: url('../../../assets/images/contact-bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 7rem 1rem;
+}
+
+.contact__subtitle {
+    color: $primary;
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact__title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 1rem auto 6rem;
+    max-width: 850px;
+    text-align: center;
+}
+
+.contact__container {
+    align-items: center;
+    margin: auto;
+    max-width: 900px;
+}
+
+.contact__info {
+    padding-left: 5rem;
+}
+
+.contact__text {
+    color: $dark-grey;
+    font-weight: 500;
+    line-height: 1.7rem;
+}
+
+.contact__form {
+    padding-right: 3rem;
+
+    h3 {
+        font-weight: 800;
+    }
+
+    input, textarea {
+        border: none;
+        border-radius: 5px;
+        box-shadow: 5px 5px 13px 0 transparentize($color: $light-grey, $amount: 0.8);
+        padding: 1.1rem 1.4rem;
+
+        &::placeholder {
+            color: $light-grey;
+            font-weight: 500;
+        }
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    button {
+        border: 2px solid $primary;
+        border-radius: 5px;
+        background-color: $primary;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding: 0.5rem 2rem;
+    
+        transition: 200ms ease all;
+    
+        &:hover {
+            background-color: transparent;
+            color: $primary;
+        }
+    }
+}
+
+.contact__item {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-bottom: 2rem;
+
+    img {
+        align-items: center;
+        height: 48px;
+        padding: 0;
+        width: 48px;
+    }
+
+    p {
+        font-weight: 700;
+        margin: 0;
+        margin-bottom: 2px;
+    }
+
+    span {
+        display: block;
+        color: $dark-grey;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact__item-text {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact__title {
+        font-size: 2.2rem;
+    }
+
+    .contact__container {
+        text-align: center;
+    }
+
+    .contact__form {
+        margin-bottom: 4rem;
+        padding: 0;
+    }
+
+    .contact__info {
+        padding: 0;
+    }
+
+    .contact__items {
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .contact__item {
+
+        img {
+            margin: 0 auto;
+        }
+
+        span {
+            word-wrap: break-word;
+        }
+    }
+}
