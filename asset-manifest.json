@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/prueba-tecnica-milenium-group/static/css/main.ebf25d06.chunk.css",
+    "main.js": "/prueba-tecnica-milenium-group/static/js/main.38aa21fd.chunk.js",
+    "main.js.map": "/prueba-tecnica-milenium-group/static/js/main.38aa21fd.chunk.js.map",
+    "runtime-main.js": "/prueba-tecnica-milenium-group/static/js/runtime-main.82ddb437.js",
+    "runtime-main.js.map": "/prueba-tecnica-milenium-group/static/js/runtime-main.82ddb437.js.map",
+    "static/js/2.ed20d076.chunk.js": "/prueba-tecnica-milenium-group/static/js/2.ed20d076.chunk.js",
+    "static/js/2.ed20d076.chunk.js.map": "/prueba-tecnica-milenium-group/static/js/2.ed20d076.chunk.js.map",
+    "index.html": "/prueba-tecnica-milenium-group/index.html",
+    "static/css/main.ebf25d06.chunk.css.map": "/prueba-tecnica-milenium-group/static/css/main.ebf25d06.chunk.css.map",
+    "static/js/2.ed20d076.chunk.js.LICENSE.txt": "/prueba-tecnica-milenium-group/static/js/2.ed20d076.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/prueba-tecnica-milenium-group/static/media/team-bg.d8b37706.png",
+    "static/media/about-image-1.d26f0dbc.png": "/prueba-tecnica-milenium-group/static/media/about-image-1.d26f0dbc.png",
+    "static/media/about-image-2.d5659203.png": "/prueba-tecnica-milenium-group/static/media/about-image-2.d5659203.png",
+    "static/media/hero-illustration.395220bc.png": "/prueba-tecnica-milenium-group/static/media/hero-illustration.395220bc.png",
+    "static/media/member-1.8d0ef703.png": "/prueba-tecnica-milenium-group/static/media/member-1.8d0ef703.png",
+    "static/media/member-2.3af50b74.png": "/prueba-tecnica-milenium-group/static/media/member-2.3af50b74.png",
+    "static/media/member-3.0601cbc4.png": "/prueba-tecnica-milenium-group/static/media/member-3.0601cbc4.png",
+    "static/media/member-4.518a8be3.png": "/prueba-tecnica-milenium-group/static/media/member-4.518a8be3.png",
+    "static/media/mg-logo.8dbfa1fa.png": "/prueba-tecnica-milenium-group/static/media/mg-logo.8dbfa1fa.png",
+    "static/media/project-1.c1e3548f.png": "/prueba-tecnica-milenium-group/static/media/project-1.c1e3548f.png",
+    "static/media/project-2.bb56f5ac.png": "/prueba-tecnica-milenium-group/static/media/project-2.bb56f5ac.png",
+    "static/media/project-3.9dc1149f.png": "/prueba-tecnica-milenium-group/static/media/project-3.9dc1149f.png",
+    "static/media/testimonial.ca1ea402.png": "/prueba-tecnica-milenium-group/static/media/testimonial.ca1ea402.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82ddb437.js",
+    "static/js/2.ed20d076.chunk.js",
+    "static/css/main.ebf25d06.chunk.css",
+    "static/js/main.38aa21fd.chunk.js"
+  ]
+}
